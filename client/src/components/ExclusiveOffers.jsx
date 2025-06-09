@@ -12,7 +12,7 @@ const ExclusiveOffers = () => {
             <img src={assets.arrowIcon} alt="arrowIcon" className='group-hover:translate-x-1 transition-all' />
         </button>
       </div>
-
+ 
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12 '>
         {exclusiveOffers.map((item)=>( 
             <div key={item.id} className='group relative flex flex-col items-start justify-between gap-1 pt-12 md:pt-18 px-4 rounded-xl text-white bg-no-repeat bg-cover bg-center' style={{backgroundImage: `url(${item.image})`}} >
